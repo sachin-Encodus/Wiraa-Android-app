@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Wiraa",
+    "slug": "WiraaApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon":"./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#f56"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.app.wiraa",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.app.wiraa",
+      "versionCode": 8,
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "CAMERA_ROLL"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}
